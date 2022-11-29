@@ -9,3 +9,4 @@ Get-ChildItem -Include "*.csproj" -Recurse | Where-Object DirectoryName -NotLike
         Write-Output $_.FullName >>multi-module.txt
      }
     }
+    
